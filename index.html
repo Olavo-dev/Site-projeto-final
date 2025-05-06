@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalizador</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     
+  <header class="header">
+        <img src="Imagens/icone projeto.png" alt="Logo" class="logo" />
+        
+        <div class="search-container">
+            <input type="text" placeholder="O que você procura?" class="search-input">
+            <button class="search-button">
+              🔍
+            </button>
+          </div>
+
+   
+    <nav class="nav">
+      <a href="#">Página inicial</a>
+      <a href="#">Quem somos?</a>
+      <a href="#">Materiais</a>
+      <a href="#">Comunidade</a>
+      <a href="#">Contato</a>
+
+     
+    
+      <button class="icons">⚙️</button>
+      <div class="icons">
+        <i class="fa-regular fa-user"></i>
+      </div>
+    </nav>
+
+  
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+      </script>
+  </header>
+
+  <main class="main">
+    <h1 class="main-title">CATALIZADOR</h1>
+    <p class="subtitle">“De estudantes para estudantes”</p>
+  </main>
+  <div class="container">
+    <div class="image-box">
+      <img src="Imagens/livros.jpg" alt="Planeta com beca">
+    </div>
+    <div class="text-box">
+      <h1>SEJA BEM-VINDO(A)</h1>
+      <p><strong>E aí, caro estudante?</strong> Está pronto para uma jornada de estudos e aprendizados? Aqui, acreditamos que educação de qualidade transforma vidas. Explore resumos, mapas mentais, dicas de redação e participe da nossa comunidade.</p>
+      <button class="button">Faça Login</button>
+    </div>
+  </div>
+ 
+
+  
+  <script src="script.js"></script>
 </body>
 </html>
