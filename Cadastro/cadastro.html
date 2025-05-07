@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="cadastro.js" defer></script>
+</head>
+<body>
+    <section class="containerPai">
+        <div class="card cadastroActive">
+            <div class="esquerda">
+               
+                <div class="facaLogin">
+                    <h2>Já tem <br>uma conta</h2>
+                    <p>Faça login para acessar sua conta</p>
+                    <button class="loginButton">Faça Login</button>
+                </div>
+                <div class="formLogin">
+                    <h2>Fazer Login</h2>
+                    <form>
+                        <input type="text" placeholder="E-mail" required>
+                        <input type="password" placeholder="Senha" required>
+                        <a href="/index.html" class="button">Entrar</a>
+                      </form>
+                </div>
+            </div>
+            <div class="direita">
+                <div class="formCadastro">
+                    <h2>Cadastro</h2>
+                    <form>
+                        <input type="text" placeholder="Nome completo" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="password" placeholder="Senha" required>
+                        <input type="password" placeholder="Confirme sua senha" required>
+                        <button type="submit" class="button" onclick="return validateForm()">Cadastrar</button>
+
+                </div>
+                <div class="facaCadastro">
+                    <h2>Não tem<br> uma conta?</h2>
+                    <p>Crie uma conta para acessar o conteúdo</p>
+                    <button class="cadastroButton">Cadastre-se</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
