@@ -116,6 +116,8 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 1.5s;
+    
 }
 
 .facaLogin, .facaCadastro {
@@ -143,7 +145,7 @@ button:hover {
     width: 50%;
     height: 100%;
     content: '';
-    background-image: url('img/background.jpg');
+    background-image: url('image.png');
     position: absolute;
     top: 0;
     right: 0;
@@ -164,16 +166,3 @@ button:hover {
     margin-top: 100px;
 }
 
-#barraPesquisa {
-    width: 300px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-  }
-  
-  #listaDeItens li {
-    padding: 8px;
-    margin: 5px 0;
-    background-color: #eee;
-    border-radius: 4px;
