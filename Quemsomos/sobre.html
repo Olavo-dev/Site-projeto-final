@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,30 +12,30 @@
 </head>
 <body>
     <header class="header">
-        <img src="/Imagens/icone.png" alt="Logo" class="logo" />
-    
+        <img src="img/logo.png" alt="Logo" class="logo" />
+   
         <div class="search-container">
           <input type="text" placeholder="O que você procura?" class="search-input">
           <button class="search-button">
             🔍
           </button>
         </div>
-    
-    
+   
+   
         <nav class="nav">
           <a href="/index.html">Página Inicial</a>
           <a href="sobre.html">Quem somos?</a>
           <a href="#">Materiais</a>
           <a href="#">Comunidade</a>
           <a href="/Contato/contato.html">Contato</a>
-    
-          <button class="icons">⚙️</button>
+   
+          <button class="icons">⚙</button>
           <div class="icons">
             <i class="fa-regular fa-user"></i>
           </div>
         </nav>
-    
-    
+   
+   
         <div vw class="enabled">
           <div vw-access-button class="active"></div>
           <div vw-plugin-wrapper>
@@ -46,39 +46,56 @@
             new window.VLibras.Widget("https://vlibras.gov.br/app");
           </script>
       </header>
-    
+   
       <main class="main">
         <h1 class="main-title">QUEM<span style="color:#3E559A;">SOMOS?</span></h1>
       </main>
 
       <div class="container">
         <div class="image-box">
-          <img src="img/educacao.jpg" alt="Planeta com beca"><br>
+          <img src="img/educa.jpg" alt="Planeta com beca"><br>
         </div>
         <div class="text-box">
           <p>O Catalisador nasceu da experiência de viver na pele os desafios da preparação para o vestibular. A ideia surgiu ao perceber como, muitas vezes, o acesso a conteúdos claros, organizados e confiáveis faz toda a diferença no rendimento dos estudos.</p>
           <p>Nosso objetivo é oferecer um espaço onde estudantes encontrem explicações objetivas, bem estruturadas e pensadas para quem está se preparando para os vestibulares. Tudo é desenvolvido com foco em quem precisa aprender com eficiência e clareza, sem perder tempo com conteúdos confusos ou superficiais.</p>
         </div>
       </div>
-      <div class="container-desenvolvedores">
-        <h2 class="desenvolvedores">DESENVOLVEDORES</h2>
-        <div class="desenvolvedores-box">
-          <div class="desenvolvedor">
-            <img src="/Imagens/julia.png" alt="Desenvolvedora Julia de Souza">
-            <p>Julia de Souza</p>
-          </div>
-          <div class="desenvolvedor">
-            <img src="/Imagens/mariana.png" alt="Desenvolvedora Mariana Cury">
-            <p>Mariana Cury</p>
-          </div>
-          <div class="desenvolvedor">
-            <img src="/Imagens/olavo.png" alt="Desenvolvedor Olavo Luis">
-            <p>Olavo Luis</p>
-          </div>
-          <div class="desenvolvedor">
-            <img src="/Imagens/victoria.png" alt="Desenvolvedora Victória Mazzaroto">
-            <p>Victória Mazzaroto</p>
-          </div>
+    <div class="container-desenvolvedores">
+      <br>
+      <h2 class="desenvolvedores">DESENVOLVEDORES</h2>
+      <div class="desenvolvedores-box" style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+        <div class="desenvolvedor" style="text-align: center; flex: 1; max-width: 200px;">
+            <img src="img/julia.png" alt="Desenvolvedor Júlia" style="height: auto; width: 100%; max-width: 200px;">
+            <p><strong>Júlia de Souza</strong></p>
+            <div class="descricao">
+              <p>Aluna e desenvolvedora do SENAI e SESI. Gosta de ler e pretende estudar Relações Internacionais.</p>
+            </div>
+        </div>
+        <div class="desenvolvedor" style="text-align: center; flex: 1; max-width: 200px;">
+            <img src="img/mariana.png" alt="Desenvolvedora Mariana Cury" style="height: auto; width: 100%; max-width: 200px;">
+            <p><strong>Mariana Cury</strong></p>
+            <div class="descricao2">
+              <p>Blaugrana de carteirinha, é vestibulanda de Administração e estudante de técnico em Desenvolvimento de Sistemas, pelo SENAI.</p>
+            </div>
+        </div>
+        <div class="desenvolvedor" style="text-align: center; flex: 1; max-width: 200px;">
+            <img src="img/olavo.png" alt="Desenvolvedor Olavo Luis" style="height: auto; width: 100%; max-width: 200px;">
+            <p><strong>Olavo Luis</strong></p>
+            <div class="descricao2">
+              <p>Aluno e desenvolvedor do SENAI e do SESI, é torcedor do Santos e adora jogos online.</p>
+            </div>
+        </div>
+        <div class="desenvolvedor" style="text-align: center; flex: 1; max-width: 200px;">
+            <img src="img/julia.png" alt="Desenvolvedora Victória Mazzaroto" style="height: auto; width: 100%; max-width: 200px;">
+            <p><strong>Victória Mazzaroto</strong></p>
+            <div class="descricao2">
+              <p>Amante de bons livros e música, pretende cursar psicologia e seguir a área de neurociência.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
         </div>
       </div>
 
@@ -86,7 +103,7 @@
         <footer class="rodape">
           <div class="container-rodape">
             <div class="logo-e-redes">
-              <img src="/Imagens/icone.png" alt="Logo" class="logo">
+              <img src="img/logo.png" alt="Logo" class="logo">
               <div class="redes-sociais">
                 <a href="https://www.facebook.com"><img src="/Imagens/facebook.png" alt="Facebook"></a>
                 <a href="https://www.linkedin.com/feed/"><img src="/Imagens/linkedin.png" alt="LinkedIn"></a>
@@ -116,10 +133,6 @@
             </div>
           </div>
         </footer>
-      
+     
 </body>
 </html>
-
-
-
-
