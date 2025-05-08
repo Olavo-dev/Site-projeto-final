@@ -145,7 +145,7 @@ button:hover {
     width: 50%;
     height: 100%;
     content: '';
-    background-image: url('image.png');
+    background-image: url('img/background.jpg');
     position: absolute;
     top: 0;
     right: 0;

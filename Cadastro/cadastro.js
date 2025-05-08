@@ -34,7 +34,7 @@ document.getElementById("formLogin").addEventListener("submit", function (event)
 
   if (this.checkValidity()) {
       // Validação passou, redireciona
-      window.location.href = "/site.html";
+      window.location.href = "/index.html";
   } else {
       // Mostra mensagens de erro se campos estiverem inválidos
       this.reportValidity();
