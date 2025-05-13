@@ -16,6 +16,11 @@ body {
   padding: 16px 30px;
 }
 
+.header img {
+  object-fit: cover;
+  height: 100px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -214,7 +219,7 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   grid-gap: 20px;
- 
+
 }
 
 .titulo1 {
@@ -227,9 +232,11 @@ body {
   padding-left: 500px;
   width: 500px;
 }
-.titulo1 strong{
+
+.titulo1 strong {
   color: #102260;
 }
+
 .subtitulo1 {
   text-align: center;
   font-size: 25px;
@@ -241,38 +248,42 @@ body {
 
 }
 
-.primeira-avaliacao{
+.primeira-avaliacao {
   background-color: #d5e3fcc0;
   border-radius: 10px;
   width: 400px;
-  height: 450px;
+  height: 500px;
   margin-bottom: 20px;
   box-shadow: 4px 5px #1b2a5eb1;
 }
-.segunda-avaliacao{
+
+.segunda-avaliacao {
   background-color: #d5e3fcc0;
   border-radius: 10px;
   width: 400px;
-  height: 450px;
+  height: 500px;
   margin-bottom: 20px;
   box-shadow: 4px 5px #1b2a5eb1;
 
 }
-.terceira-avaliacao{
+
+.terceira-avaliacao {
   background-color: #d5e3fcc0;
   border-radius: 10px;
   width: 400px;
-  height: 450px;
+  height: 500px;
   margin-bottom: 20px;
   box-shadow: 4px 5px #1b2a5eb1;
 }
+
 .primeira-avaliacao h2 {
   font-size: 30px;
   color: rgb(74, 98, 122);
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: 100px;
+  padding-left: 105px;
 }
+
 .segunda-avaliacao h2 {
   font-size: 30px;
   color: rgb(74, 98, 122);
@@ -280,6 +291,7 @@ body {
   margin-bottom: 10px;
   padding-left: 100px;
 }
+
 .terceira-avaliacao h2 {
   font-size: 30px;
   color: rgb(74, 98, 122);
@@ -287,6 +299,7 @@ body {
   margin-bottom: 10px;
   padding-left: 100px;
 }
+
 .primeira-avaliacao p {
   text-align: justify;
   font-size: 20px;
@@ -296,9 +309,10 @@ body {
   padding-left: 50px;
   padding-right: 30px;
 }
-.segunda-avaliacao p{
+
+.segunda-avaliacao p {
   text-align: justify;
- font-size: 20px;
+  font-size: 20px;
   color: #333;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -306,7 +320,8 @@ body {
   padding-right: 30px;
 
 }
-.terceira-avaliacao p{
+
+.terceira-avaliacao p {
   text-align: justify;
   font-size: 20px;
   color: #333;
@@ -325,7 +340,8 @@ body {
   height: 250px;
   border-radius: 10px;
 }
-.segunda-avaliacao img{
+
+.segunda-avaliacao img {
   object-fit: cover;
   width: 250px;
   height: 250px;
@@ -334,7 +350,8 @@ body {
   margin-top: 15px;
 
 }
-.terceira-avaliacao img{
+
+.terceira-avaliacao img {
   object-fit: cover;
   width: 250px;
   height: 250px;
@@ -409,4 +426,43 @@ body {
 
 .links-rodape a:hover {
   text-decoration: underline;
+}
+
+.estrela {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.estrela img {
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
+}
+
+#contraste {
+  position: fixed;
+  top: 175px;
+  right: 20px;
+  background-color: #b0b8cabb;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(86, 111, 179, 0.662);
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+}
+
+#contraste button {
+  background-color: #2b3b8bc6;
+  color: #f2f2f2;
+  border: none;
+  margin: 2px;
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: fixed;
 }

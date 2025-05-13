@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="Icon" type="icon/x-image" href="Imagens/icone.png">
 </head>
 
 
@@ -27,20 +28,22 @@
 
 
     <nav class="nav">
-      <a href="index.html">Página inicial</a>
+      <a href="#">Página inicial</a>
       <a href="Quemsomos/sobre.html">Quem somos?</a>
-      <a href="#">Materiais</a>
-      <a href="#">Comunidade</a>
+      <a href="Materiais/Materiais.html">Materiais</a>
+      <a href="Comunidade/comunidade.html">Comunidade</a>
       <a href="Contato/contato.html">Contato</a>
 
-      <button class="icons">⚙️</button>
-      <div class="icons">
-        <i class="fa-regular fa-user"></i>
-      </div>
-    </nav>
 
+
+    </nav>
+    <div id="contraste">
+      <button onclick="ativarContraste()">AC +</button>
+      <button onclick="desativarC()">AC -</button>
+    </div>
 
     <div vw class="enabled">
+
       <div vw-access-button class="active"></div>
       <div vw-plugin-wrapper>
         <div class="vw-plugin-top-wrapper"></div>
@@ -49,6 +52,8 @@
       <script>
         new window.VLibras.Widget("https://vlibras.gov.br/app");
       </script>
+
+      </section>
   </header>
 
   <main class="main">
@@ -69,13 +74,20 @@
     </div>
   </div>
 
-    <h1 class="titulo1">EXPERIÊNCIA <strong>DOS USÚARIOS</strong></h1>
-    <p class="subtitulo1"><i>Fique ligado nas experiências de quem usou o nosso site!</i></p>
-    <br><br>
-    <div class="experiencia">
-    
+  <h1 class="titulo1">EXPERIÊNCIA <strong>DOS USÚARIOS</strong></h1>
+  <p class="subtitulo1"><i>Fique ligado nas experiências de quem usou o nosso site!</i></p>
+  <br><br>
+  <div class="experiencia">
+
     <div class="primeira-avaliacao">
       <img src="Imagens/garota-avaliação.png" alt="Foto de uma mulher">
+      <div class="estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+      </div>
       <div class="conteudo">
         <h2>Helena Lucia</h2>
         <p>“O site me ajudou a organizar os estudos e entender temas difíceis com resumos e mapas mentais. A comunidade
@@ -85,6 +97,13 @@
 
     <div class="segunda-avaliacao">
       <img src="Imagens/menina-avaliação.png" alt="Foto de uma menina">
+      <div class="estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+      </div>
       <div class="conteudo">
         <h2>Elisa Escobar</h2>
         <p>“Encontrei aqui os melhores repertórios para redação e consegui melhorar muito meus
@@ -94,6 +113,12 @@
 
     <div class="terceira-avaliacao">
       <img src="Imagens/mulher-avaliação.png" alt="Foto de uma mulher">
+      <div class="estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+        <img src="Imagens/estrela.png" alt="Estrela">
+      </div>
       <div class="conteudo">
         <h2>Daiane Shimth</h2>
         <p>“O site é incrível! Os resumos são claros e objetivos, facilitando a compreensão. A comunidade é super
@@ -102,8 +127,9 @@
     </div>
   </div>
 
-  
-  
+
+
+
 
   <footer class="rodape">
     <div class="container-rodape">
@@ -119,21 +145,18 @@
       <div class="links-rodape">
         <div>
           <a href="#">Página Inicial</a>
-          <a href="#">Atualizando-se</a>
-          <a href="#">Quem somos?</a>
-          <a href="#">Desenvolvedores</a>
+          <a href="Quemsomos/sobre.html">Quem somos?</a>
+
         </div>
         <div>
-          <a href="#">Materiais</a>
-          <a href="#">Textoteca</a>
-          <a href="#">Resumos de todas as matérias</a>
-          <a href="#">Banco de questões</a>
+          <a href="Materiais/Materiais.html">Materiais</a>
+          <a href="Cadastro/cadastro.html">Cadastro</a>
+
         </div>
         <div>
-          <a href="#">Comunidade</a>
-          <a href="#">Comunidade</a>
-          <a href="#">Notificações</a>
-          <a href="#">Contato</a>
+          <a href="Comunidade/comunidade.html">Comunidade</a>
+
+          <a href="Contato/contato.html">Contato</a>
         </div>
       </div>
     </div>
