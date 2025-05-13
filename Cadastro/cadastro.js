@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       alert('Login realizado com sucesso!');
       window.location.href = '../index.html';
+      
     } else {
       alert('Usuário ou senha incorretos');
     }
