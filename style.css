@@ -134,12 +134,14 @@ body {
 .container {
   display: flex;
   background-color: #d5e3fc;
-  padding: 30px;
+  padding: 20px;
   gap: 60px;
   align-items: center;
   border-radius: 10px;
   border-bottom: 1px solid #000;
   height: 350px;
+  wid
+
 }
 
 .image-box {
@@ -243,7 +245,7 @@ body {
   color: #444;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: 350px;
+  padding-left: 500px;
   width: 800px;
 
 }
@@ -252,7 +254,7 @@ body {
   background-color: #d5e3fcc0;
   border-radius: 10px;
   width: 400px;
-  height: 500px;
+  height: 510px;
   margin-bottom: 20px;
   box-shadow: 4px 5px #1b2a5eb1;
 }
@@ -261,7 +263,7 @@ body {
   background-color: #d5e3fcc0;
   border-radius: 10px;
   width: 400px;
-  height: 500px;
+  height: 510px;
   margin-bottom: 20px;
   box-shadow: 4px 5px #1b2a5eb1;
 
@@ -271,7 +273,7 @@ body {
   background-color: #d5e3fcc0;
   border-radius: 10px;
   width: 400px;
-  height: 500px;
+  height: 510px;
   margin-bottom: 20px;
   box-shadow: 4px 5px #1b2a5eb1;
 }
@@ -465,4 +467,104 @@ body {
   border-radius: 5px;
   cursor: pointer;
   display: fixed;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    padding: 20px;
+  }
+  .image-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .image-box img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .text-box {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .titulo1, .subtitulo1 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .primeira-avaliacao,
+  .segunda-avaliacao,
+  .terceira-avaliacao {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+        flex-direction: column;
+        gap: 8px;
+        max-width: 100%;
+    }
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .main-title {
+    font-size: 38px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .content-box {
+    padding: 10px;
+    width: 95%;
+  }
+  .more-button {
+     position: relative;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 90%;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .container-rodape {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .links-rodape {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .text-box a{
+    display: block;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .button{
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 0;
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  button, .button, input {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 8px;
+  }
 }

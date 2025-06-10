@@ -391,3 +391,199 @@ body {
     cursor: pointer;
     display: fixed;
 }
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    padding: 20px;
+  }
+  .image-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .image-box img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .text-box {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .titulo1, .subtitulo1 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .primeira-avaliacao,
+  .segunda-avaliacao,
+  .terceira-avaliacao {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+    .container-rodape {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .links-rodape {
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .parliteratura {
+        flex-direction: column;
+        margin-left: 40px;
+        gap: 30px;
+    }
+    .img2 {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 900px) {
+    .conteudos {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        padding: 15px;
+    }
+    .materiais h1 {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .textoteca h2 {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .subtitulo p {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .balao {
+        width: 95vw;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .balao::before {
+        left: -15px;
+        border-width: 20px;
+        margin-bottom: -8px;
+    }
+    .parliteratura {
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .repertorio img,
+    .literatura img,
+    .livros img {
+        width: 90vw;
+        max-width: 100%;
+        height: auto;
+    }
+    .subrepertorio p,
+    .subliteratura p,
+    .sublivros p {
+        font-size: 28px;
+        height: auto;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+    .logo {
+        width: 70px;
+        height: 60px;
+    }
+    .header img {
+        height: 60px;
+    }
+    .nav {
+        flex-direction: column;
+        gap: 8px;
+        max-width: 100%;
+    }
+    .materiais {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .materiais h1 {
+        font-size: 28px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .conteudos {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .materia img {
+        width: 90vw;
+        height: 180px;
+    }
+    .materia p {
+        font-size: 1.1em;
+    }
+    .textoteca h2 {
+        font-size: 22px;
+        margin-left: 5px;
+    }
+    .subtitulo p {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .balao {
+        width: 98vw;
+        margin-left: 0;
+        padding: 6px;
+        font-size: 14px;
+    }
+    .balao::before {
+        left: -10px;
+        border-width: 12px;
+        margin-bottom: -4px;
+    }
+    .parliteratura {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+    }
+    .repertorio img,
+    .literatura img,
+    .livros img {
+        width: 98vw;
+        max-width: 100%;
+        height: auto;
+    }
+    .subrepertorio p,
+    .subliteratura p,
+    .sublivros p {
+        font-size: 18px;
+        padding: 6px 0;
+    }
+    .rodape {
+        padding: 20px 5px;
+        font-size: 13px;
+    }
+    .container-rodape {
+        gap: 15px;
+    }
+    .links-rodape {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

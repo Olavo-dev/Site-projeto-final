@@ -166,3 +166,81 @@ button:hover {
     margin-top: 100px;
 }
 
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    padding: 20px;
+  }
+  .image-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .image-box img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .text-box {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .titulo1, .subtitulo1 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .primeira-avaliacao,
+  .segunda-avaliacao,
+  .terceira-avaliacao {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Para telas menores que 600px */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .main-title {
+    font-size: 38px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .content-box {
+    padding: 10px;
+    width: 95%;
+  }
+  .more-button {
+    position: static;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .container-rodape {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .links-rodape {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  button, .button, input {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 8px;
+  }
+}
+

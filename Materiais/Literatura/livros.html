@@ -11,8 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="Icon" type="icon/x-image" href="../Imagens/icone.png">
-    <title>Fisica</title>
+    <title>Livros obrigatórios</title>
+    <style>
+        .carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            width: 100%;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,7 +45,7 @@
             <a href="../../Comunidade/comunidade.html">Comunidade</a>
             <a href="../../Contato/contato.html">Contato</a>
 
-            <button class="icons">⚙️</button>
+
 
         </nav>
 
@@ -54,14 +65,93 @@
     </header>
     <section class="titulo">
         <div class="inicio">
-            <h1>Livros Obrigatórios</h1>
+            <h1 style="font-family: Roboto Flex, sans-serif;font-weight: bold;" >Livros Obrigatórios</h1>
         </div>
     </section>
-    <section class="balao">
-        <div class="conteudo">
-            <p>Sem conteúdo adicionado</p>
-        </div>
+    <section class="biblioteca">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/opusculo.jpg" alt="Capa do livro: Opúsculo Humanitário " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Opúsculo Humanitário (1853) – Nísia Floresta</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/nebulosas.jpg" alt="Capa do livro: Nebulosa " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Nebulosas (1872) – Narcisa Amália</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/memorias.jpg" alt="Capa do livro: Memórias de Martha " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Memórias de Martha (1899) – Julia Lopes de Almeida</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/caminho.jpg" alt="Capa do livro: Caminho das pedras " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Caminho de pedras (1937) – Rachel de Queiroz</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/cristo.jpg" alt="Capa do livro: O Cristo Cigano " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>O Cristo Cigano (1961) – Sophia de Mello Breyner Andresen</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/meninas.jpg" alt="Capa do livro: As meninas " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>As meninas (1973) – Lygia Fagundes Telles</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/balada.jpg" alt="Capa do livro: Balada do amor ao vento " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Balada de amor ao vento (1990) – Paulina Chiziane</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/cancao.jpg" alt="Capa do livro: Canção para ninar menino grande "
+                            style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Canção para ninar menino grande (2018) – Conceição Evaristo
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/visao.jpg" alt="Capa do livro: A visão das plantas " style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>A visão das plantas (2019) – Djaimilia Pereira de
+                                Almeida</h3>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
     </section>
+
     <footer class="rodape">
         <div class="container-rodape">
             <div class="logo-e-redes">
